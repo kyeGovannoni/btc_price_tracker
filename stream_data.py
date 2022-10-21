@@ -1,4 +1,4 @@
-from tracker._parser import JsonParser
+from tracker.parser import JsonParser
 from tracker.collector import BinaceWebsocket
 import asyncio
 from asyncio.events import AbstractEventLoop
