@@ -1,0 +1,4 @@
+websockets
+azure-eventhub
+pandas 
+numpy
