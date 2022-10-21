@@ -4,6 +4,7 @@ import asyncio
 from asyncio.events import AbstractEventLoop
 import colorama
 import sys
+
 def main(address ='wss://stream.binance.com:9443/ws/btcgbp@kline_1m',
         parser =JsonParser()
             ):
@@ -22,12 +23,7 @@ def main(address ='wss://stream.binance.com:9443/ws/btcgbp@kline_1m',
         loop.close()
 
 
-    
- 
-
-
-
-
+   
 
 if __name__ =='__main__':
     main()
